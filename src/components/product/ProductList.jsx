@@ -172,7 +172,7 @@ function ProductList() {
 
   return (
     <Flex direction="column" align="center" p={5}>
-      <Table variant="striped" colorScheme="teal" size={tableSize}>
+      <Table variant="striped" colorScheme="teal" size={tableSize} maxW="1300px">
         <Thead>
           <Tr>
             <Th>Name</Th>
