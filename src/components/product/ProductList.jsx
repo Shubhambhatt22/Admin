@@ -301,12 +301,14 @@ function ProductList() {
       {/* Pagination buttons */}
       <Flex mt={4} justify="center">
         <Button
+         colorScheme="blue"
           onClick={() => setCurrentPage(currentPage - 1)}
           isDisabled={currentPage === 1}
         >
           Previous Page
         </Button>
         <Button
+        colorScheme="blue"
           ml={2}
           onClick={() => setCurrentPage(currentPage + 1)}
           isDisabled={currentPage === totalPages}
