@@ -47,6 +47,7 @@ function ProductList() {
   const toast = useToast();
   const tableSize = useBreakpointValue({ base: "sm", md: "md", lg: "lg" });
 
+  // Pages
   const [currentPage, setCurrentPage] = useState(1);
   const [productsPerPage] = useState(6); // Number of products per page
 
@@ -194,8 +195,8 @@ function ProductList() {
                   <Image
                     src={`${product.image}`}
                     alt={product.name}
-                    maxW="50px"
-                    maxH="50px"
+                    maxW="80px"
+                    maxH="80px"
                   />
                 </Td>
                 <Td>{product.price}</Td>
