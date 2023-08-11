@@ -15,7 +15,7 @@ function Navbar() {
       <div className="Admin_div">
         <div className="Admin_logo">
           <a href="/">Admin</a>
-        </div>
+        </div> 
       </div>
     </div>
   );

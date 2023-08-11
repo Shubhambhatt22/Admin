@@ -172,7 +172,6 @@ function ProductList() {
 
   return (
     <Flex direction="column" align="center" p={5}>
-      <h2>Product List</h2>
       <Table variant="striped" colorScheme="teal" size={tableSize}>
         <Thead>
           <Tr>
